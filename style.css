@@ -1,0 +1,219 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+/**estilo de contenedor resolucion**/
+.conrtenedormain {
+    max-width: auto;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/** style header title**/
+.headertitle {
+    background-color:  rgb(72, 135, 206);
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    width: auto;
+    height: 90px;
+
+}
+
+/**div de posicionamiento de la imagen**/
+.headerima {
+    display: flex;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+/** style header image*/
+.ima-header {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid  rgb(72, 135, 206);
+
+}
+
+/**styles del documento prinsipal*/
+.textpelfil {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/**estilo del contenedor padre de la linea */
+.contenedorperfil {
+    display: flex;
+    width: auto;
+    height: 100px;
+    text-align: left;
+    margin-top: -600px;
+    margin-left: 300px;
+    margin-right: 8px;
+    gap: 5px;
+
+}
+
+/**estilo del contenedor para la linea que se creo al lado del texto*/
+.linea {
+    border-bottom: 2.5px solid rgb(72, 135, 206);
+    height: 40%;
+    width: 100%;
+
+
+}
+
+/**estilo para el parrafo del perfil utilizando id*/
+#parrafoperfil {
+
+    display: flex;
+    width: auto;
+    margin-top: -26px;
+    margin-left: 300px;
+    margin-right: 10px;
+    justify-content: flex-start;
+    align-items: first baseline;
+    text-align: justify;
+}
+
+/**contenedor padre de la seccion educacion*/
+.contenedoreducacion {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 10px;
+    gap: 5px;
+
+}
+
+/*!pendiente falta por hacer*/
+.alineacion {
+    margin: auto;
+    text-align: start;
+}
+
+/**estilo para contenedor hijo del contenedor educacion*/
+.contenedor-v {
+    width: auto;
+    margin-top: -10px;
+    margin-left: 300px;
+
+
+}
+
+/** estilo del cotenedor de la lista*/
+ul>li {
+    font-weight: 300;
+    list-style-type: disc;
+    
+
+
+
+}
+
+/**estilo de la lista*/
+li::marker {
+    color: rgb(227, 19, 255);
+    font-size: 25px;
+}
+
+/**estilo del parrafo de la lista*/
+ul p {
+    margin-left: 30px;
+}
+
+/**contenedor aside para el lateral de la web*/
+.contenedoraside {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    align-items: first baseline;
+    margin-left: 25px;
+    margin-top: 180px;
+    padding: 3px;
+}
+
+/**asi se crea una linea vertical*/
+.linea-v {
+    border-right: 2px solid #3f912ecc;
+    margin-right: auto;
+    padding-right: 5px;
+
+}
+
+/**contenedor padre del footer*/
+
+.footermain {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(72, 135, 206);
+    height: 250px;
+}
+
+/**estilo para un titulo del footer*/
+.footerlink h4 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid #cfe2ff;
+    padding-bottom: 4px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;;
+
+}
+
+/**estilo para los icon del footer*/
+.footerlink a {
+    display: inline-block;
+    width: 40px;
+    min-height: 40px;
+    margin: 0 10px 10px 0px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    transition: all .3s ease;
+    margin-left: 60px;
+
+}
+
+/**interacion de los icon cuando pasa el mouse por encima*/
+.footerlink a:hover {
+    background-color: aquamarine;
+}
+
+/**contenedor de la imagen del footer*/
+.footerimaflex {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+/**estilo de la imagen del footer*/
+.footerima {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 100px;
+
+}
+
+/**estilo parrafo del autor*/
+.autor {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 10%;
+}
