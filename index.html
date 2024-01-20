@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <title>Web Alex Transporte</title>
+</head>
+<div id="#top"></div><!--contenedor para posicionarse en las partes de la pagina-->
+
+<body class="bg-body-secondary">
+    <!--seccion top-->
+
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid ">
+      <a href="#">
+        <img src="img/logo.png" alt="logo" width="64px" class="rounded-circle">
+      </a>
+         
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse " id="menu">
+                <ul class=" navbar-nav  mx-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item mx-5 active">
+                        <a class="nav-link " href="#top">Home</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link " href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item  mx-5">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <button type="button" class="nav-link mx-auto" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Contacto
+                        </button>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <!--modal-->
+    <div class="modal " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">Rellena el formulario para contactarnos</h>
+
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustomUsername" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                    aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom04" class="form-label">State</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>...</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"
+                                aria-label="Close">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Encabezado-->
+    <header class="d-flex">
+
+        <div class="d-block ">
+            <div class="imagen_fondo ">
+                <h1 class="display-4 ">
+                    Los Mejores en Servicios de Transporte donde nos necesites hay estamos
+                </h1>
+            </div>
+
+        </div>
+
+    </header>
+    <!--secciones del cuerpo-->
+    <div id="nosotros"></div><!--contenedor para posicionarse en las partes de la pagina-->
+    <main>
+
+
+        <Section class="container-fluid">
+
+            <article class="container-fluid mt-5">
+                <!--secion nososotros-->
+
+                <div class="d-lg-flex align-items-center">
+                    <div class="mt-2 mx-auto d-block">
+                        <img src="./img/isotra2.png" alt="nosotros" class="img-fluid opacity-75">
+                    </div><!--cierre contenedor imagen-->
+                    <div class="p-2 flex-grow-1">
+                        <h3>Nuestra Misión</h3>
+
+                        Procurar soluciones eficientes a las necesidades logísticas y de transporte por carretera,
+                        ofreciendo a
+                        nuestros clientes un servicio integral y personalizado, de calidad y respetuoso con el medio
+                        ambiente.
+                        Proporcionar a nuestros empleados la posibilidad de desarrollarse en el ámbito profesional y
+                        personal.
+                    </div><!--cierre contenedor parrafo mision-->
+                    <div class="p-2 flex-grow-1">
+                        <h3>Nuestra Visión</h3>
+
+                        Ser una empresa líder y en constante crecimiento en el servicio logístico y de transporte por
+                        carretera,
+                        ofreciendo unos servicios de calidad que marquen la diferencia mediante la mejora y la evolución
+                        continua.
+                        Contribuir al desarrollo y progreso social, con un equipo humano altamente capacitado y
+                        motivado,
+                        siendo medioambientalmente sostenibles.
+                    </div><!--cierre contenedor parrafo vision -->
+                </div> <!--cierre contenedor  -->
+
+            </article>
+
+            <div id="galeria"></div><!--contenedor para posicionarse en las partes de la pagina-->
+            <article class="container-fluid mt-5">
+
+
+                <div id="C_deslizante" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="./img/ima_alex1.jpg" class="  w-25 ">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./img/ima_alex2.jpg" class=" w-25 ">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+
+                            <img src="./img/ima_alex3.jpg" class="w-25">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+
+                            <img src="./img/ima_alex4.jpg" class=" w-25">
+
+
+
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+
+                            <img src="./img/ima_alex5.jpg" class=" w-25">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+
+                            <img src="./img/ima_alex6.jpg" class="  w-25">
+
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#C_deslizante"
+                        data-bs-slide="prev">
+                        <i class="bi-chevron-left s_icon" style="font-size: 50px; color:rgb(202, 148, 47);"></i>
+                        <span class="visually-hidden">Previo</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-slide="next"
+                        data-bs-target="#C_deslizante">
+                        <i class="bi-chevron-right   " style="font-size: 50px; color:rgb(202, 148, 47);"></i>
+                        <span class="visually-hidden ">Next</span>
+                    </button>
+
+
+
+                </div>
+            </article>
+
+        </Section>
+    </main>
+    <footer>
+
+
+        <div class="container-fluid bg-dark mt-5 "> <!--contenedor main footer-->
+            <div class="d-lg-flex  ">
+
+                <div class="d-block py-3">
+                    <a href="enlaces/Cv.html" target="_blank" class="navbar-brand ">
+                        <div class=" align-items-center text-center ms-2">
+                            <img src="img/logo.png" class="rounded-circle " style="height: 54px; width: 54px;">
+
+                            <b class="fs-4 ms-1 fw-medium">Diseño Web</b>
+                        </div>
+
+                    </a>
+                </div>
+
+
+                <div class="d-lg-flex  justify-content-between align-items-baseline mt-5">
+
+
+                    <div class="d-flex row py-2 mx-1 text-center">
+                        <h5>Nosotros</h5>
+                        <p class="text-sm-center fs-6">
+                            En el Grupo Romitransp estamos totalmente <br>
+                            comprometidos con el principio de transparencia <br>que es el
+                            soporte de nuestras actividades diarias <br>de transporte y
+                            logística.
+                        </p>
+
+                    </div>
+                    <div class="d-flex row py-2 mx-1">
+                        <h5>Servicios</h5>
+                        <ul class="mx-auto text-decoration-none" style="text-decoration: none;">
+                            <li>Logistica</li>
+                            <li>Traslado</li>
+                            <li>Carga/Descarga
+                        </ul>
+                    </div>
+                    <div class="d-flex row py-2  mx-1">
+                        <h5>Clientes</h5>
+                        <ul class=" mx-auto text-decoration-none">
+                            <li><a href="https://www.instagram.com/efescars.001?igsh=MTU2N2sxaHA3d3lmeA=="
+                                    target="_blank">Efes_Car</a></li>
+                            <li><a href="https://www.solteca.net/#top" target="_blank"
+                                    style="text-decoration: none;">Solteca</a></li>
+                            <li><a href="https://servyequipo.cl/" target="_blank">Servyequipo</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex row py-2  mx-1">
+                        <h5>Contacto</h5>
+                        <ul
+                            class="list-group list-group-horizontal-md text-decoration-none justify-content-center mx-auto">
+                            <li class="mx-1"><a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i
+                                        class="bi-facebook  " style="color: rgb(97, 160, 255);"></i></a></li>
+                            <li class="mx-1"><a href="#"><i class="bi-instagram"
+                                        style="color: rgb(255, 160, 97);"></i></a></li>
+                            <li class="mx-1"><a href="#"><i class="bi-twitter"
+                                        style="color: rgb(29, 185, 123);"></i></a></li>
+                            <li class="mx-1"><a
+                                    href="https://wa.me/+584245397571?text=Hola%20quiero%20mas%20informaci&oacute;n%20de%20tu%20producto"
+                                    target="_blank"><i class="bi-whatsapp" style="color: green;"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.395955212416!2d-70.74983152526362!3d-33.75043261293604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663216f306429dd%3A0xe3637f075d42ae5a!2sC.%20Luis%20Moraga%20Reyes%20600%2C%209500000%20Buin%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses!2sve!4v1705460159714!5m2!1ses!2sve"
+                width="100%" height="250" style="border:0;" allowfullscreen="true" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">Nuestra Ubicacion</iframe>
+            <div class="d-block text-center">
+                <p>Autor Carlos Zapata </p>
+                <p>&#169; 2023 Grupo solteca C.A</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
