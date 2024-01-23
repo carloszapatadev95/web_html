@@ -50,6 +50,31 @@ a:hover {
   color: rgb(202, 148, 47);
 }
 
+.img_habilidades {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.carousel .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #6c757d;
+}
+
+.carousel .carousel-indicators button:hover {
+  background-color: red;
+}
+
+.orange {
+  background-color: #fd7e14 !important;
+}
+
+.c_boobtra {
+  background-color: #af2ca4 !important;
+}
+
 /*esta es una forma de modificar una clase de boostraps*/
 .nav-link {
   color: wheat !important;

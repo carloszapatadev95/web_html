@@ -18,7 +18,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Cv.html",
-            "file": "c:\\Users\\usuario\\Desktop\\html\\Cv.html"
+            "file": "c:\\Users\\usuario\\Desktop\\html\\Enlaces\\Cv.html"
         }
     ]
 }
