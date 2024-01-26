@@ -62,31 +62,31 @@
                     </div>
                 </div>
                 <div class="modal-body">
-                    <form class="row ">
+                    <form class="row " id="formulario">
                         <div class="col-md-6  text-start">
                             <label for="nombre" class="form-label">Nombre</label>
-                            <input type="email" class="form-control" id="nombre">
+                            <input type="text" class="form-control" id="nombre" required>
                           </div>
                           <div class="col-md-6 text-start">
                             <label for="apellido" class="form-label">Apellido</label>
-                            <input type="password" class="form-control" id="apellido">
+                            <input type="text" class="form-control" id="apellido" required>
                           </div>
                      
                       <div class="col-md-6 text-start">
-                        <label for="inputEmail4" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <label for="Email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="Email" required>
                       </div>
                       <div class="col-md-6 text-start">
                         <label for="telefono" class="form-label">Telefono</label>
-                        <input type="password" class="form-control" id="telefono">
+                        <input type="number" class="form-control" id="telefono">
                       </div>
                       <div class="col-12 text-start">
                         <label for="direccion" class="form-label">Direccion</label>
-                        <input type="text" class="form-control text-start" id="direccion" placeholder="Ulb/condomini Calle Principal">
+                        <input type="text" class="form-control text-start" id="direccion" placeholder="Ulb/condomini Calle Principal" required >
                       </div>
                       <div class="col-12 text-start">
                         <label for="casa" class="form-label">Direccion 2</label>
-                        <input type="text" class="form-control text-start" id="casa" placeholder="Apartamento, estudio o piso casa/#">
+                        <input type="text" class="form-control text-start" id="casa" placeholder="Apartamento, estudio o piso casa/#" required >
                       </div>
                       <div class="col-md-4 text-start">
                         <label for="estado" class="form-label">Estado</label>
@@ -124,6 +124,7 @@
                           <option selected="">Elegir...</option>
                           <option>Puerto Ayacucho</option>
                           <option>Barcelona</option>
+                          <option>Barquisimeto</option>
                           <option>San Fernando de Apure	</option>
                           <option>Maracay</option>
                           <option>Barinas		</option>
@@ -150,7 +151,7 @@
                       </div>
                       <div class="col col-md-2  text-start">
                         <label for="postal" class="form-label text-start">Codigo postal</label>
-                        <input type="text" class="form-control" id="postal">
+                        <input type="number" class="form-control" id="postal">
                       </div>
                       <div class="col-12">
                         <div class="form-check  text-start mt-2">
@@ -159,7 +160,7 @@
                         </div>
                       </div>
                       <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                        <button type="submit"  class="btn btn-primary" >Iniciar sesión</button>
                       </div>
                     </form>
                 </div>
@@ -374,6 +375,7 @@
 
     </footer>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
