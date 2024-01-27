@@ -13,15 +13,10 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\usuario\\Desktop\\html\\index.html"
+            "file": "c:\\Users\\usuario\\Desktop\\PageTransporte\\index.html"
         },
         
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Open Cv.html",
-            "file": "c:\\Users\\usuario\\Desktop\\html\\Enlaces\\Cv.html"
-        },
+       
         
     ]
 }
